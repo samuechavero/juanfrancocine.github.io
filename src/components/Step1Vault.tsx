@@ -77,7 +77,7 @@ export default function Step1Vault({ onNext }: Step1VaultProps) {
               <div className="bg-gradient-to-b from-zinc-800 to-zinc-900 pt-4 px-4 pb-2 flex items-center justify-center">
                 <div className="w-full max-w-xs md:max-w-sm mx-auto">
                   <img
-                    src={`${import.meta.env.BASE_URL}libro.png`}
+                    src="/libro.png"
                     alt="El Escudo de un Millón de Dólares"
                     width={400}
                     height={600}

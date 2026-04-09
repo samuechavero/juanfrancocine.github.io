@@ -26,7 +26,7 @@ export default function Step2Video({ onNext }: Step2VideoProps) {
         <div className="relative w-full" style={{ aspectRatio: "9/16", maxHeight: "85vh" }}>
           <div className="absolute inset-0 rounded-2xl overflow-hidden border border-zinc-700/50 shadow-2xl">
             <video
-              src={`${import.meta.env.BASE_URL}videofrancocomp.mp4`}
+              src="/videofrancocomp.mp4"
               autoPlay
               muted={isMuted}
               loop
